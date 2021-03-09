@@ -10,9 +10,8 @@ while not game_over:
     else  :
         if user_number > win_number:
             print("Too high")
-            guess+=1
-            user_number=int(input("guess again :"))
+          
         else:
             print("Too low")
-            guess+=1
-            user_number=int(input("guess again :"))
+        guess+=1
+        user_number=int(input("guess again :"))
